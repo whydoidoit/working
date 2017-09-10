@@ -27,6 +27,12 @@ let vector = V(0,0,distance).mul(this.entity.getRotation());
 
 ```
 
+### Notes
+
+There are 2048 scratch quaternions and vectors used in a rolling buffer, allocation of more than
+this before a function completes will cause them to be overwritten.  **Values are for working
+purposes only and should not be stored between frames**.
+
 ### Requirements
 
 Requires PlayCanvas Engine to be running on the page.  Uses ES6/Babel/PlayCanvas template.
