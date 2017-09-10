@@ -1,0 +1,22 @@
+{
+  "name": "playcanvas-working-vectors",
+  "version": "1.0.0",
+  "description": "Provides working pc.Vec3 and pc.Quat for a program without having to define inline working variables.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whydoidoit/working.git"
+  },
+  "keywords": [
+    "PlayCanvas"
+  ],
+  "author": "Mike Talbot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whydoidoit/working/issues"
+  },
+  "homepage": "https://github.com/whydoidoit/working#readme"
+}
